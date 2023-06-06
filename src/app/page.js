@@ -1,95 +1,50 @@
 import Image from 'next/image'
+import React from 'react'
 import styles from './page.module.css'
+import Cards from './homeComponents/myCards'
+import VolunteerComp from './homeComponents/volunteer'
+import WorshipComp from './homeComponents/worship'
+import MoreComp from './homeComponents/more'
+import PricingComp from './homeComponents/pricing'
+import Servicesdemo from './homeComponents/servicesDemo'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
+    <main className= {styles.main}>
+      <div className={styles.landing}>
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+          <h1><span className={styles.heading}>Metho</span><span style={{color: '#3EB6AF'}}>Connect</span></h1>
+          <p><em>Connecting the church worldwide</em></p>
+          <button>Sign up</button>
         </div>
-      </div>
-
-      <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/Section.svg"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={400}
+          height={400}
           priority
         />
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <Cards />
+      <VolunteerComp />
+      <WorshipComp />
+      <VolunteerComp />
+      <section>
+        <div>
+          <p> music stand</p>
+          <p> app store</p>
+          <p> google play</p>
+        </div>
+        <div>
+          Music Stand is an add-on mobile app to Services with tools to help musicians step through sheet music 
+          with a foot pedal, save personalized notes, and more!
+        </div>
+      </section>
+      <MoreComp />
+      <PricingComp />
+      <Servicesdemo />
     </main>
   )
 }
+

@@ -1,0 +1,31 @@
+:root{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --foreground-rgb: #000; 
+    --themeColormaroon: #d43333;
+    --themecolorgreen: #3EB6AF;
+  }
+  
+  *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+  html,
+  body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  }
+  
+  a {
+    color: var(--foreground-rgb);
+    text-decoration: none;
+  }
+  button {
+    width: 6rem;
+    height: 2.5rem;
+    color: var(--foreground-rgb);
+    background-color: #34d5cd;
+    border:2 solid var(--themecolorgreen);
+    border-radius: 10px;
+  }
+  

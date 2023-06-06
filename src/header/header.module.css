@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: #f9f9f9;
+  }
+  .header{
+    display: flex;
+    width: 100vw;
+    margin-top: 0;
+    background-color: #d7d7d7;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headerLinks{
+    padding-left: 2rem;
+  }
+  .heading{
+    color: var(--themeColormaroon);
+  }
+  .landing{
+    display: flex;
+    background:linear-gradient( #000000e7 , #00000086),url("/IMG_20230408_165147_809.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: #ffffff;
+    font-size: 2rem;
+    width: 100vw;
+    height: 25rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .containcards{
+    margin-Top: -3rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+  .cards{
+    display: flex;
+      flex-direction: column;
+      width: 18rem;
+      height: 23rem;
+      border-width: 1px;
+      border-color: #b9b9b9;
+      border-style: solid;
+      border-radius: 10px;
+      align-items: center;
+      text-align: center;
+      margin: 1rem 2rem;
+      padding: 5px;
+      justify-content: space-evenly;
+      background-color: white;
+      box-shadow:2px 2px 2px grey;
+  }
+  
