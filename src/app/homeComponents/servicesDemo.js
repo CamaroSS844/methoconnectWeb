@@ -4,7 +4,7 @@ const Servicesdemo = () => {
     return ( 
         <section>
             <div>
-                <p>Watch a Serbices demo</p>
+                <p>Watch a Services demo</p>
                 <p>See how you can use Services in your ministry with a video walk-through from a product expert.</p>
                 <button>Watch now</button>
             </div>

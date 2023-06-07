@@ -8,7 +8,7 @@ const VolunteerComp = () => {
           <h1>
             Volunteer Scheduling
           </h1>
-          <p style={{padding: '2.5%', fontSize: '1.2rem'}}>Schedule people for roles in every ministry in your church.</p>
+          <p >Schedule people for roles in every ministry in your church.</p>
         </div>
         <div className={styles.compOnepTwo}>
         <Image
@@ -20,7 +20,6 @@ const VolunteerComp = () => {
           priority
         />
           <div style={{width: '30%'}}>
-            <p>
             <ul className={styles.ulist}>
               <li > <b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. 
                 Fugit dicta ipsam suscipit velit minima iusto non?
@@ -38,7 +37,6 @@ const VolunteerComp = () => {
                 Fugit dicta ipsam suscipit velit minima iusto non?
               </li>
             </ul>
-            </p>
           </div>
         </div>
       </section>
